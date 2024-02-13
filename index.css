@@ -104,13 +104,17 @@ button {
     align-items: center;
     width: 100vw;
     margin: auto;
-    background:linear-gradient(to bottom, black, rgb(43, 1, 1)) ;
+    background:linear-gradient(to bottom, rgb(43, 1, 1), rgb(107, 32, 23)) ;
 }
 
 .new-item-text {
     padding: 50px;
     color: white;
-    width: 50%;
+    width: 60%;
+}
+
+.new-item-text h2 i {
+    color: white;
 }
 
 .text {
@@ -125,8 +129,11 @@ button {
 
 
 .img {
-    width: 50%;
-    height: 500px;
+    width: 30%;
+    height: 450px;
+    margin: 30px;
+    border: 4px solid white;
+    border-radius: 15px;
 }
 
 .service-items {
@@ -143,17 +150,20 @@ button {
 }
 
 .services h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
+
+
 .service-card {
     background:linear-gradient(to bottom, black, rgb(43, 1, 1)) ;
     border: 5px solid;
-    border-radius: 45px;
+    border-radius: 15px;
+    padding-bottom: 25px;
 }
 
 .service-card h3 {
     color: red;
-    padding: 10px 10px;
+    padding: 10px 6px;
 }
 
 .service-card p {
@@ -161,9 +171,15 @@ button {
     padding-bottom: 10px;
 }
 
+.service-card i {
+    color: white;
+
+}
+
 .product img {
-    width: 100% ;
-    height: 350px;
+    width: 85% ;
+    height: 310px;
+    border-radius: 15px;
 }
 
 .product-items {
@@ -172,9 +188,18 @@ button {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 70px;
     grid-row-gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: wheat;
+    padding-bottom: 30px;
     }
 
 .products {
     padding: 20px 20px;
     text-align: center;
+}
+
+.our-team {
+    text-align: center;
+    padding-top: 30px;
 }
